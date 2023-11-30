@@ -1,0 +1,149 @@
+
+   .ant-input {
+    width: 250px;
+    margin-top: 10px; 
+    border-radius: 8px;
+  
+  }
+  
+  
+  .ant-picker {
+    width: 250px;
+    border-radius: 8px;
+  }
+  h3{
+    color: #354052;
+  }  
+
+
+  /* Crud.css */
+
+/* Style for the main container */
+
+  /* Style for the input container */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Style for each input field */
+  .input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    justify-content: space-between;
+  }
+  
+  .input-row .input-field {
+    margin-right: 16px;
+  }
+  
+  /* Style for labels */
+  .input-field label {
+    /* display: block; */
+    margin-bottom: 4px;
+  }
+  
+  /* Custom styles for inputs and pickers */
+  #title,
+  #startDate,
+  #endDate,
+  #siteLink,
+  #timeLimit,
+  #description,
+  #remarks {
+    width: 200px;
+    margin-top: 10px;
+  }
+  
+  /* Custom style for the h3 element */
+  h3 {
+    color: #354052;
+  }
+  
+
+/*  
+
+.input-container {
+  margin: 20px 0;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  flex: 1;
+  margin-right: 20px;
+} */
+
+/* // Add this class to your CSS file */
+/* .custom-switch-clicked {
+  background-color: #13A487;
+} */
+
+
+.toggle-label-row {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.toggle-switch-content {
+  display: flex;
+  align-items: center;
+}
+
+.form-label {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.custom-switch {
+  margin-left: 10px;
+}
+
+
+
+.ton{
+  margin: auto;
+  margin-top: 70px;
+ 
+}
+.top{
+  border-radius: 9px;
+  width: 100px;
+  background-color: #13A487;
+  color: white;
+}
+.top:hover{
+  color: white;
+}
+
+
+.cancel{
+  border-radius: 9px;
+  width: 100px;
+  background-color: #748092;
+  color: white;
+}
+
+
+/* Add this class to your CSS file */
+.custom-switch-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custom-switch {
+  background-color: #D6DBE7;
+}
+
+.custom-switch.checked {
+  background-color: #13A487;
+}
+
+

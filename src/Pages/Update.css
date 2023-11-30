@@ -1,0 +1,40 @@
+/* style={{marginLeft: 10}} */
+.label{
+    margin-left: 10px;
+} 
+
+
+
+/* style={{ marginLeft: 2, width: '150px' }}  */
+
+.select{
+    margin-left: 2px;
+    width: 150px;
+}
+
+/* style={{ marginLeft: 2 ,width: 150}} */
+.site{
+    margin-left: 2px;
+    width: 150px;
+}
+/* style={{width:'190px' , height: 100, marginTop: 50, marginLeft: 2}} */
+
+.des{
+    width: 190px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 2px;
+}
+/* style={{width:'190px', height: 100, marginLeft: 2}} */
+.re{
+    width: 190px;
+    height: 100px;
+    margin-left: 2px;
+}
+/* style={{marginTop: 30, width: 200, marginLeft: 50}} */
+.cardd{
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 50px;
+}
+

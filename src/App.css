@@ -1,0 +1,214 @@
+.site-layout-background {
+  background:#EBEEF5;
+   height: 142vh;
+}
+
+.ant-layout-sider {
+  background: #ffffff;
+  border-right: 1px solid #ffffff;
+ 
+
+  /* color: black; */
+}
+
+.ant-layout-header {
+  background: #ffffff;
+  /* padding: 0; */
+  height: 50px;
+
+}
+
+.d{
+  background-color: #354052;
+  color: black;
+  /* display: flex; */
+  /* flex-direction: column; */
+  flex: 1px;
+  /* text-align: center; */
+ 
+}
+
+.site-layout{
+  background-color:#354052;
+  height: 150vh;
+}
+
+
+
+/* MainContent.css */
+.table-wrapper .ant-table-thead {
+  position: sticky;
+  left: 0;
+  z-index: 2; /* Set the z-index to 1 to place it above the first column */
+  background-color: #f2f8ff;
+/* Optional: Set a background color for the heading row */
+}
+
+
+/* App.css */
+.table-wrapper .ant-table-thead > tr th {
+  background-color: #EBEEF5;
+  z-index: 1;
+
+   /* Set your desired background color */
+   /* border-radius: 1px; */
+
+}
+
+.table-wrapper .ant-table-thead > tr th:first-child {
+  border-top-left-radius: 25px; /* Set your desired border radius for the top-left corner */
+}
+
+.table-wrapper .ant-table-thead > tr th:last-child {
+  border-top-right-radius: 25px; /* Set your desired border radius for the top-right corner */
+}
+
+
+.overlapping-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading-container {
+  position: relative;
+  /* left: -24px; Adjust this value as needed to position the heading correctly */
+  background-color: #ffffff; /* Background color for the heading */
+  padding: 8px;
+  z-index: 1;
+  /* height: 450px; */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+}
+
+.ant-table-thead > tr.ant-table-row > th {
+  background-color: transparent; 
+}
+
+
+/* styles.css (or any other CSS file) */
+.custom-search-button .ant-btn-primary {
+  background-color: white;
+  color: black;
+  border-color: rgb(0, 0, 0);
+}
+
+/* App.css (or your custom CSS file) */
+.table-responsive {
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .table-responsive .ant-table {
+    overflow-x: scroll;
+  }
+}
+
+/* .div{
+  margin-left: 800px;
+  
+} */
+
+
+
+ 
+.circle{
+ margin-left: 390px;
+} 
+
+
+/* Add this CSS class to your stylesheet */
+
+.i{
+  display: flex;
+  justify-content: center;
+  margin-left: 4px;
+}
+
+/* .custom-table .ant-table-thead > tr > th {
+  background-color: #EBEEF5; 
+  color: #404F66;
+  
+ 
+}
+ */
+
+
+ .custom-table .ant-table-thead > tr > th:first-child {
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px; 
+  /* Add border radius to top-left corner */
+}
+
+.custom-table .ant-table-thead > tr > th:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 9px; /* Add border radius to top-right corner */
+}
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: #EBEEF5; /* Change to your desired color */
+  color: #404F66;
+  
+  /* Change to your desired text color */
+}
+
+.button{
+  background-color: #13A487;
+  color: white;
+  border-radius: 10px;
+}
+.button:hover{
+  color: white;
+}
+
+
+
+
+
+ 
+.modal-data {
+  display: flex;
+  /* justify-content: space-between; */
+ 
+  cursor: pointer;
+}
+
+.modal-values p {
+  margin: 15px 0;
+  padding: 2;
+  color: #555555;
+  text-align: left; 
+  margin-left: 10px;
+ 
+}
+
+.modal-values strong {
+  display: inline-block;
+  text-align:right; 
+  font-weight: bold;
+  /* margin-left: 20px; */
+ 
+} 
+
+
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.delete-button {
+ 
+  border-color: #ff4d4f;
+  color: rgb(255, 0, 0);
+  margin-top: 10px;
+  border-radius: 10px;
+  text-decoration: none; 
+}
+ 
+
+
+
